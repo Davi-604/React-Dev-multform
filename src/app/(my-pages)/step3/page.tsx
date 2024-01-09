@@ -1,11 +1,10 @@
 'use client'
 
 import { useForm } from "@/contexts/FormContext"
-import { verifyData } from "@/helpers/VerifyData";
 import { useRouter } from "next/navigation";
 import { RefObject, useEffect, useRef, useState } from "react";
 
-const Page = () => {
+const page = () => {
     const formCtx = useForm();
     const router = useRouter(); 
 
@@ -151,4 +150,4 @@ const Page = () => {
     )
 }
 
-export default Page
+export default page
