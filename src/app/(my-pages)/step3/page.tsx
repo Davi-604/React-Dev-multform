@@ -2,9 +2,9 @@
 
 import { useForm } from "@/contexts/FormContext"
 import { useRouter } from "next/navigation";
-import { RefObject, useEffect, useRef, useState } from "react";
+import { KeyboardEvent, RefObject, useEffect, useRef, useState } from "react";
 
-const page = () => {
+const Page = () => {
     const formCtx = useForm();
     const router = useRouter(); 
 
@@ -150,4 +150,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

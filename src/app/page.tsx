@@ -2,7 +2,7 @@
 
 import { useForm } from "@/contexts/FormContext";
 import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { KeyboardEvent, useEffect, useState } from "react";
 
 const Page = () => {
   const [nameField, setNameField] = useState('');
@@ -32,7 +32,7 @@ const Page = () => {
       alert ('Digite o seu nome para avançar!')
     }
   };
-  const handleSkipStep = (e: KeyboardEvent<HTMLInputElement>) => {
+  const handleSkipStep = (e: KeyboardEvent) => {
     if (e.code.toLowerCase() === 'enter') {
       if (nameField.trim() !== '') {
         router.push('/step2');
