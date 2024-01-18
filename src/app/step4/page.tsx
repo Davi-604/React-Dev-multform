@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
 
-export const Page = () => {
+const Page = () => {
     const formCtx = useForm();
     const router = useRouter();
 
