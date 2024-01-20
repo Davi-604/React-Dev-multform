@@ -109,7 +109,7 @@ const Page = () => {
                     <p className="text-sm text-left">Qual o seu email?</p>
                     <input 
                         type="email"
-                        className="px-4 py-3 border-[3px] lg:w-[700px] border-emerald-100 bg-transparent outline-none text-lg font-semibold rounded-md
+                        className="px-4 py-3 border-[3px] w-full border-emerald-100 bg-transparent outline-none text-lg font-semibold rounded-md
                         transition-colors ease-linear focus:border-emerald-500"
                         autoFocus
                         value={emailField}
@@ -122,7 +122,7 @@ const Page = () => {
                     <input 
                         type="text"
                         required
-                        className="px-4 py-3 border-[3px] lg:w-[700px] border-emerald-100 bg-transparent outline-none text-lg font-semibold rounded-md
+                        className="px-4 py-3 border-[3px] w-full border-emerald-100 bg-transparent outline-none text-lg font-semibold rounded-md
                         transition-colors ease-linear focus:border-emerald-500"
                         value={githubField}
                         ref={githubInputRef}

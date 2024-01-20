@@ -64,7 +64,7 @@ const Page = () => {
           <p className="text-sm text-left">Seu nome</p>
           <input 
               type="text"
-              className="px-4 py-3 border-[3px] md:w-[700px] border-emerald-100 bg-transparent outline-none text-lg font-semibold rounded-md
+              className="px-4 py-3 border-[3px] w-full border-emerald-100 bg-transparent outline-none text-lg font-semibold rounded-md
               transition-colors ease-linear focus:border-emerald-500"
               autoFocus
               value={nameField}
