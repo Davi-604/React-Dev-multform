@@ -12,7 +12,7 @@ export const MainContainer = ({children}: Props) => {
             <Header />
             <div className="flex flex-col lg:flex-row lg:pl-28">
                 <StepsArea />
-                <div className="lg:mt-10">
+                <div className="text-center lg:text-left lg:mt-10">
                  {children}
                 </div>
             </div>

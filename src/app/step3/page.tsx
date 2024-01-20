@@ -106,7 +106,7 @@ const Page = () => {
                 </p>
                 
                 <label >
-                    <p className="text-sm">Qual o seu email?</p>
+                    <p className="text-sm text-left">Qual o seu email?</p>
                     <input 
                         type="email"
                         className="px-4 py-3 border-[3px] lg:w-[700px] border-emerald-100 bg-transparent outline-none text-lg font-semibold rounded-md
@@ -118,7 +118,7 @@ const Page = () => {
                     />
                 </label>
                 <label className="mt-5">
-                    <p className="text-sm">Qual o seu github?</p>
+                    <p className="text-sm text-left">Qual o seu github?</p>
                     <input 
                         type="text"
                         required

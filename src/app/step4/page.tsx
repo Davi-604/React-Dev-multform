@@ -30,7 +30,7 @@ const Page = () => {
                 Passo 4/4
             </p>
             <h1 className="text-3xl text-center font-semibold my-5 md:text-left">
-                Agora é só esperar, {formCtx?.state.name}
+                Agora é só esperar,<br/> {formCtx?.state.name}
             </h1> 
             <p className="text-zinc-300 text-sm mb-20 text-center md:text-left lg:mb-24">
                 Logo a nossa equipe entrará em contato com você.  

@@ -61,7 +61,7 @@ const Page = () => {
       </p>
       
       <label >
-          <p className="text-sm">Seu nome</p>
+          <p className="text-sm text-left">Seu nome</p>
           <input 
               type="text"
               className="px-4 py-3 border-[3px] md:w-[700px] border-emerald-100 bg-transparent outline-none text-lg font-semibold rounded-md

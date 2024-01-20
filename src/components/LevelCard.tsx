@@ -13,7 +13,7 @@ export const LevelCard = ({emoji, currentLevel, desc, selected, onClick}: Props)
             ${selected ? 'border-emerald-500' : 'border-slate-800 hover:border-zinc-500 cursor-pointer'}`}
             onClick={onClick}
         >
-            <div className={`px-2 py-3 inline-flex justify-center items-center rounded-full
+            <div className={`px-2 py-[10px] lg:py-3 inline-flex justify-center items-center rounded-full
             transition-colors ease-linear 
                 ${selected ? 'bg-emerald-600' : 'bg-slate-900 group-hover:bg-slate-800 cursor-pointer'}`}>
                 <p className="text-3xl">{emoji}</p>
