@@ -57,11 +57,11 @@ const Page = () => {
         Vamos começar com o seu nome 
       </h1>
       <p className="text-zinc-300 text-sm mb-20 lg:mb-24">
-       Preencha o campo abaixo com o seu nome
+       Preencha o campo abaixo com o seu nome.
       </p>
       
       <label >
-          <p className="text-sm">Seu nome completo</p>
+          <p className="text-sm">Seu nome</p>
           <input 
               type="text"
               className="px-4 py-3 border-[3px] md:w-[700px] border-emerald-100 bg-transparent outline-none text-lg font-semibold rounded-md
