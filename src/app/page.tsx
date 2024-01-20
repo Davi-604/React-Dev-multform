@@ -57,7 +57,7 @@ const Page = () => {
         Vamos começar com o seu nome 
       </h1>
       <p className="text-zinc-300 text-sm mb-20 lg:mb-24">
-       Preencha o campo abaixo com o seu nome completo
+       Preencha o campo abaixo com o seu nome
       </p>
       
       <label >
